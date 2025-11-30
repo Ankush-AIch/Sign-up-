@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(64, 112, 244);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    padding: 45px;
+    width: 250px;
+    background-color: white;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input {
+    width: 100%;
+    height: 27px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    padding: 3px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.email {
+    width: calc(100% - 20px);
+    display: inline-block;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    
+}
+
+.password {
+    width: calc(100% - 20px);
+    display: inline-block;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.forgot {
+    text-decoration: none;
+    color: rgb(72, 167, 226);
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.loginbtn {
+    background-color: rgb(1, 113, 211);
+    border: 1px solid white;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    margin-left: 5px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.one {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.signup {
+    text-decoration: none;
+    color: rgb(72, 167, 226);
+}
+
+.or {
+    font-size: small;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facebook {
+    background-color: #4267B2;
+    width: calc(100% - 20px);
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.google {
+    background-color: white;
+    width: calc(100% - 20px);
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: grey;
+    border: 1px solid grey;
+    margin-right: 2px;
+    cursor: pointer;
+    gap: 25px;
+}
+
+.loginbtn:hover {
+    background-color: blue;
+}
+
+.facebook:hover {
+    background-color:  #2E4E8C;
+}
