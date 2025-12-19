@@ -167,4 +167,5 @@ button {
 input:focus {
   transform: scale(1.02);
   border-color: #3498db; /* optional nice color pop */
+  outline: none;
 }
